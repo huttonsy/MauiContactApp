@@ -10,6 +10,7 @@
         <Label Text="{Binding PhoneNumber}" FontSize="18" />
         <Label Text="{Binding Description}" FontSize="16" />
 
-        <Button Text="Back" Clicked="OnBackButtonClicked" />
+        <VerticalStackLayout VerticalOptions="FillAndExpand"/>
+        <Button Text="Back" Clicked="OnBackButtonClicked" VerticalOptions="End" HorizontalOptions="Fill" BackgroundColor="LightGray" />
     </StackLayout>
 </ContentPage>
